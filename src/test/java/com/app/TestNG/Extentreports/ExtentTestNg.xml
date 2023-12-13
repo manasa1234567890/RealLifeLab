@@ -1,0 +1,27 @@
+
+<suite name="ExtentReports" verbose="1">
+<test name="Test WikiPage">
+<classes>
+<class name="com.app.TestNG.Extentreports.TestClass"></class>
+<methods>
+    <include name="method1"></include> 
+  </methods>
+</classes>
+</test>
+<test name="Test OpenMRS">
+<classes>
+<class name="com.app.TestNG.Extentreports.TestClass"></class>
+<methods>
+    <include name="method2"></include> 
+  </methods>
+</classes>
+</test>
+<test name="Test AppointmentPage">
+<classes>
+<class name="com.app.TestNG.Extentreports.TestClass"></class>
+<methods>
+    <include name="method3"></include> 
+  </methods>
+</classes>
+</test>
+</suite>

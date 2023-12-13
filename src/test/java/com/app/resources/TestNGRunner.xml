@@ -1,0 +1,10 @@
+<suite name="test1" verbose="1">
+	 <listeners>
+    <listener class-name="com.app.TestPages.ItestListenerClass"></listener>
+  </listeners>
+<test name="Adding New Service">
+<classes>
+<class name="com.app.TestPages.OpenMRSAddNewServicePageTest"></class>
+</classes>
+</test>
+</suite>
